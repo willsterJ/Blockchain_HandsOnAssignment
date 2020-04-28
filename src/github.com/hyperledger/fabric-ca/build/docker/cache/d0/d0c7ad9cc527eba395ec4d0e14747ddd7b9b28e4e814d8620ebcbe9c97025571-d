@@ -1,0 +1,11 @@
+./attrs.go
+./attrs_unix.go
+./client.go
+./conn.go
+./packet.go
+./release.go
+./server.go
+./server_statvfs_impl.go
+./server_statvfs_linux.go
+./server_unix.go
+./sftp.go

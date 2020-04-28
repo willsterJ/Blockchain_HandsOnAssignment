@@ -1,0 +1,11 @@
+./config.go
+./creddbaccessor.go
+./cri.go
+./enroll.go
+./idemix_roles.go
+./idemixlib.go
+./issuer.go
+./issuercredential.go
+./nonce.go
+./revocationauthority.go
+./revocationkey.go

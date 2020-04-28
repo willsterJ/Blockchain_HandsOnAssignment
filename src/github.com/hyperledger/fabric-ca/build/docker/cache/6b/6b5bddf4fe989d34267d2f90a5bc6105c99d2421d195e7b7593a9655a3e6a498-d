@@ -1,0 +1,16 @@
+./afero.go
+./basepath.go
+./cacheOnReadFs.go
+./const_win_unix.go
+./copyOnWriteFs.go
+./httpFs.go
+./ioutil.go
+./memmap.go
+./memradix.go
+./os.go
+./path.go
+./readonlyfs.go
+./regexpfs.go
+./sftp.go
+./unionFile.go
+./util.go

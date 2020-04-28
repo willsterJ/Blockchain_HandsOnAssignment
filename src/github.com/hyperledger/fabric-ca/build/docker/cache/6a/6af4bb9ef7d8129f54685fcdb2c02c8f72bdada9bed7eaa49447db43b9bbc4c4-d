@@ -1,0 +1,4 @@
+./bind.go
+./doc.go
+./named.go
+./sqlx.go

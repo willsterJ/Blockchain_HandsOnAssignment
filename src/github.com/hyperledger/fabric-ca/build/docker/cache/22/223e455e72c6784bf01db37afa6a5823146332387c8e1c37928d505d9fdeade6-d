@@ -1,0 +1,13 @@
+./affiliation.go
+./certificate.go
+./clientcmd.go
+./config.go
+./enroll.go
+./gencrl.go
+./gencsr.go
+./getcainfo.go
+./identity.go
+./reenroll.go
+./register.go
+./revoke.go
+./root.go
