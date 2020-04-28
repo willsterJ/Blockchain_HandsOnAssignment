@@ -1,0 +1,166 @@
+Creating volume "net_peer0.lenderorg.trade.com" with default driver
+Found orphan containers (peer0.importerorg.trade.com, orderer.trade.com, peer0.regulatororg.trade.com, ca_peerExporterOrg, ca_peerImporterOrg, peer0.carrierorg.trade.com, ca_peerRegulatorOrg, peer0.exporterorg.trade.com, ca_peerCarrierOrg) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Creating ca_peerLenderOrg ... 
+Creating peer0.lenderorg.trade.com ... 
+Creating ca_peerLenderOrg
+Creating peer0.lenderorg.trade.com
+[1A[2KCreating ca_peerLenderOrg ... [32mdone[0m[1B[1A[2KCreating peer0.lenderorg.trade.com ... [32mdone[0m[1BAttaching to ca_peerLenderOrg, peer0.lenderorg.trade.com
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Home directory: /etc/hyperledger/fabric-ca-server
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] parent server URL: ''
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Created default configuration file at /etc/hyperledger/fabric-ca-server/fabric-ca-server-config.yaml
+[33mpeer0.lenderorg.trade.com    |[0m [33m2020-03-15 17:16:40.144 UTC [main] InitCmd -> WARN 001[0m CORE_LOGGING_LEVEL is no longer supported, please use the FABRIC_LOGGING_SPEC environment variable
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Starting server in home directory: /etc/hyperledger/fabric-ca-server
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Set log level: 
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Server Version: 1.4.7-snapshot-505df12
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Server Levels: &{Identity:2 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Making server filenames absolute
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing default CA in directory /etc/hyperledger/fabric-ca-server
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Init CA with home /etc/hyperledger/fabric-ca-server and config {Version:1.4.7-snapshot-505df12 Cfg:{Identities:{PasswordAttempts:10 AllowRemove:false} Affiliations:{AllowRemove:false}} CA:{Name:ca-lenderorg Keyfile:/etc/hyperledger/fabric-ca-server-config/41b5ce0422a9420917e765a007cb037bdd92ecf8ea391934d712b9e2e95be26d_sk Certfile:/etc/hyperledger/fabric-ca-server-config/ca.lenderorg.trade.com-cert.pem Chainfile:ca-chain.pem} Signing:0xc0004a80c0 CSR:{CN:fabric-ca-server Names:[{C:US ST:North Carolina L: O:Hyperledger OU:Fabric SerialNumber:}] Hosts:[c7b109fb284f localhost] KeyRequest:0xc0002a91a0 CA:0xc0002a9220 SerialNumber:} Registry:{MaxEnrollments:-1 Identities:[{ Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:0 Attrs:map[hf.AffiliationMgr:1 hf.GenCRL:1 hf.IntermediateCA:1 hf.Registrar.Attributes:* hf.Registrar.DelegateRoles:* hf.Registrar.Roles:* hf.Revoker:1]  }]} Affiliations:map[org1:[department1 department2] org2:[department1]] LDAP:{ Enabled:false URL:ldap://****:****@<host>:<port>/<base> UserFilter:(uid=%s) GroupFilter:(memberUid=%s) Attribute:{[uid member] [{ }] map[groups:[{ }]]} TLS:{false [] { }}  } DB:{ Type:sqlite3 Datasource:fabric-ca-server.db TLS:{false [] { }}  } CSP:0xc0002a8cc0 Client:<nil> Intermediate:{ParentServer:{ URL: CAName:  } TLS:{Enabled:false CertFiles:[] Client:{KeyFile: CertFile:}} Enrollment:{ Name: Secret:**** CAName: AttrReqs:[] Profile: Label: CSR:<nil> Type:x509  }} CRL:{Expiry:24h0m0s} Idemix:{IssuerPublicKeyfile: IssuerSecretKeyfile: RevocationPublicKeyfile: RevocationPrivateKeyfile: RHPoolSize:1000 NonceExpiration:15s NonceSweepInterval:15m}}
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] CA Home Directory: /etc/hyperledger/fabric-ca-server
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Checking configuration file version '1.4.7-snapshot-505df12' against server version: '1.4.7-snapshot-505df12'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing BCCSP: &{ProviderName:SW SwOpts:0xc00048a180 PluginOpts:<nil>}
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing BCCSP with software options &{SecLevel:256 HashFamily:SHA2 Ephemeral:false FileKeystore:0xc0004a6130 DummyKeystore:<nil> InmemKeystore:<nil>}
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initialize key material
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Making CA filenames absolute
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] The CA key and certificate files already exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Key file location: /etc/hyperledger/fabric-ca-server-config/41b5ce0422a9420917e765a007cb037bdd92ecf8ea391934d712b9e2e95be26d_sk
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Certificate file location: /etc/hyperledger/fabric-ca-server-config/ca.lenderorg.trade.com-cert.pem
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Validating the CA certificate and key
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Check CA certificate for valid dates
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Check CA certificate for valid usages
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Check CA certificate for valid IsCA value
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Check that key type is supported
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Check that key size is of appropriate length
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Check that public key and private key match
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.160 UTC [nodeCmd] serve -> INFO 002[0m Starting peer:
+[33mpeer0.lenderorg.trade.com    |[0m  Version: 1.4.7
+[33mpeer0.lenderorg.trade.com    |[0m  Commit SHA: 609ddf8ef
+[33mpeer0.lenderorg.trade.com    |[0m  Go version: go1.12.12
+[33mpeer0.lenderorg.trade.com    |[0m  OS/Arch: linux/amd64
+[33mpeer0.lenderorg.trade.com    |[0m  Chaincode:
+[33mpeer0.lenderorg.trade.com    |[0m   Base Image Version: 0.4.18
+[33mpeer0.lenderorg.trade.com    |[0m   Base Docker Namespace: hyperledger
+[33mpeer0.lenderorg.trade.com    |[0m   Base Docker Label: org.hyperledger.fabric
+[33mpeer0.lenderorg.trade.com    |[0m   Docker Namespace: hyperledger
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.161 UTC [ledgermgmt] initialize -> INFO 003[0m Initializing ledger mgmt
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.162 UTC [kvledger] NewProvider -> INFO 004[0m Initializing ledger provider
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Validation of CA certificate and key successful
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Loading CN from existing enrollment information
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing DB
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing 'sqlite3' database at '/etc/hyperledger/fabric-ca-server/fabric-ca-server.db'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Using sqlite database, connect to database in home (/etc/hyperledger/fabric-ca-server/fabric-ca-server.db) directory
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating SQLite database (/etc/hyperledger/fabric-ca-server/fabric-ca-server.db) if it does not exist...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating users table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating affiliations table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating certificates table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating credentials table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating revocation_authority_info table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating nonces table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating properties table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Successfully opened sqlite3 DB
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing identity registry
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initialized DB identity registry
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Checking database levels '&{Identity:0 Affiliation:0 Certificate:0 Credential:0 RAInfo:0 Nonce:0}' against server levels '&{Identity:2 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Migrating users table...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Upgrade identity table to level 1
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating users table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Upgrade identity table to level 2
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating users table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Migrating affiliation table...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Upgrade affiliations table to level 1
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating affiliations table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Upgrade certificates table...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Upgrade certificates table to level 1
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Creating certificates table if it does not exist
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Migrating credentials table...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Migrating nonces table...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Migrating revocation_authority_info table...
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Loading identity table
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Loading identity 'admin'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Getting identity admin
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Max enrollment value verification - User specified max enrollment: 0, CA max enrollment: -1
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Add identity admin
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.224 UTC [kvledger] NewProvider -> INFO 005[0m ledger provider Initialized
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.324 UTC [ledgermgmt] initialize -> INFO 006[0m ledger mgmt initialized
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.324 UTC [peer] func1 -> INFO 007[0m Auto-detected peer address: 172.20.0.12:7051
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.328 UTC [peer] func1 -> INFO 008[0m Returning peer0.lenderorg.trade.com:7051
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.328 UTC [peer] func1 -> INFO 009[0m Auto-detected peer address: 172.20.0.12:7051
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.329 UTC [peer] func1 -> INFO 00a[0m Returning peer0.lenderorg.trade.com:7051
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.338 UTC [nodeCmd] serve -> INFO 00b[0m Starting peer with TLS enabled
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.341 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 00c[0m Entering computeChaincodeEndpoint with peerHostname: peer0.lenderorg.trade.com
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.343 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 00d[0m Exit with ccEndpoint: peer0.lenderorg.trade.com:7052
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Successfully added identity admin to the database
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Registered identity: { Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:-1 Attrs:map[hf.AffiliationMgr:1 hf.GenCRL:1 hf.IntermediateCA:1 hf.Registrar.Attributes:* hf.Registrar.DelegateRoles:* hf.Registrar.Roles:* hf.Revoker:1]  }
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Successfully loaded identity table
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Loading affiliations table
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Add affiliation org1
+[33mpeer0.lenderorg.trade.com    |[0m [33m2020-03-15 17:16:40.346 UTC [nodeCmd] createChaincodeServer -> WARN 00e[0m peer.chaincodeListenAddress is not set, using peer0.lenderorg.trade.com:7052
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Affiliation 'org1' added
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Add affiliation org1.department1
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Affiliation 'org1.department1' added
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Add affiliation org1.department2
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.357 UTC [sccapi] registerSysCC -> INFO 00f[0m system chaincode lscc(github.com/hyperledger/fabric/core/scc/lscc) registered
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.357 UTC [sccapi] registerSysCC -> INFO 010[0m system chaincode cscc(github.com/hyperledger/fabric/core/scc/cscc) registered
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.358 UTC [sccapi] registerSysCC -> INFO 011[0m system chaincode qscc(github.com/hyperledger/fabric/core/scc/qscc) registered
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.358 UTC [sccapi] registerSysCC -> INFO 012[0m system chaincode (+lifecycle,github.com/hyperledger/fabric/core/chaincode/lifecycle,true) disabled
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Affiliation 'org1.department2' added
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Add affiliation org2
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.373 UTC [gossip.service] func1 -> INFO 013[0m Initialize gossip with endpoint peer0.lenderorg.trade.com:7051 and bootstrap set [peer0.lenderorg.trade.com:7051]
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Affiliation 'org2' added
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] DB: Add affiliation org2.department1
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Affiliation 'org2.department1' added
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Successfully loaded affiliations table
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Initialized sqlite3 database at /etc/hyperledger/fabric-ca-server/fabric-ca-server.db
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing enrollment signer
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] No key found in BCCSP keystore, attempting fallback
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] validating configuration
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] validate local profile
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] profile is valid
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] validate local profile
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] profile is valid
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] validate local profile
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] profile is valid
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] CA initialization successful
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initializing Idemix issuer...
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.402 UTC [gossip.gossip] NewGossipService -> INFO 014[0m Creating gossip service with self membership of Endpoint: peer0.lenderorg.trade.com:7051, InternalEndpoint: peer0.lenderorg.trade.com:7051, PKI-ID: ce07293f6650cc54c5583f9b2c266c6e2c2ff016f5d8918e7346f6f11f98e6b1, Metadata: 
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.403 UTC [gossip.gossip] start -> INFO 015[0m Gossip instance peer0.lenderorg.trade.com:7051 started
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.405 UTC [sccapi] deploySysCC -> INFO 016[0m system chaincode lscc/(github.com/hyperledger/fabric/core/scc/lscc) deployed
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.408 UTC [cscc] Init -> INFO 017[0m Init CSCC
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.408 UTC [sccapi] deploySysCC -> INFO 018[0m system chaincode cscc/(github.com/hyperledger/fabric/core/scc/cscc) deployed
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.410 UTC [qscc] Init -> INFO 019[0m Init QSCC
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.410 UTC [sccapi] deploySysCC -> INFO 01a[0m system chaincode qscc/(github.com/hyperledger/fabric/core/scc/qscc) deployed
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.411 UTC [sccapi] deploySysCC -> INFO 01b[0m system chaincode (+lifecycle,github.com/hyperledger/fabric/core/chaincode/lifecycle) disabled
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.411 UTC [nodeCmd] serve -> INFO 01c[0m Deployed system chaincodes
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.414 UTC [discovery] NewService -> INFO 01d[0m Created with config TLS: true, authCacheMaxSize: 1000, authCachePurgeRatio: 0.750000
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.414 UTC [nodeCmd] registerDiscoveryService -> INFO 01e[0m Discovery service activated
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.415 UTC [nodeCmd] serve -> INFO 01f[0m Starting peer with ID=[name:"peer0.lenderorg.trade.com" ], network ID=[dev], address=[peer0.lenderorg.trade.com:7051]
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.416 UTC [nodeCmd] serve -> INFO 020[0m Started peer with ID=[name:"peer0.lenderorg.trade.com" ], network ID=[dev], address=[peer0.lenderorg.trade.com:7051]
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.417 UTC [nodeCmd] func7 -> INFO 021[0m Starting profiling server with listenAddress = 0.0.0.0:6060
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.418 UTC [kvledger] LoadPreResetHeight -> INFO 022[0m Loading prereset height from path [/var/hyperledger/production/ledgersData/chains]
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.418 UTC [fsblkstorage] LoadPreResetHeight -> INFO 023[0m Loading Pre-reset heights
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.418 UTC [fsblkstorage] preRestHtFiles -> INFO 024[0m Dir [/var/hyperledger/production/ledgersData/chains/chains] missing... exiting
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:16:40.418 UTC [fsblkstorage] LoadPreResetHeight -> INFO 025[0m Pre-reset heights loaded
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] The issuer key was successfully stored. The public key is at: /etc/hyperledger/fabric-ca-server/IssuerPublicKey, secret key is at: /etc/hyperledger/fabric-ca-server/msp/keystore/IssuerSecretKey
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Intializing revocation authority for issuer 'ca-lenderorg'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Initialize Idemix issuer revocation key material
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Idemix issuer revocation public and secret keys were generated for CA 'ca-lenderorg'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] The revocation key was successfully stored. The public key is at: /etc/hyperledger/fabric-ca-server/IssuerRevocationPublicKey, private key is at: /etc/hyperledger/fabric-ca-server/msp/keystore/IssuerRevocationPrivateKey
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Intializing nonce manager for issuer 'ca-lenderorg'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Home directory for default CA: /etc/hyperledger/fabric-ca-server
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] 1 CA instance(s) running on server
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Operation Server Listening on 127.0.0.1:9443
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] TLS is enabled
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] TLS Certificate: /etc/hyperledger/fabric-ca-server-config/ca.lenderorg.trade.com-cert.pem, TLS Key: /etc/hyperledger/fabric-ca-server-config/41b5ce0422a9420917e765a007cb037bdd92ecf8ea391934d712b9e2e95be26d_sk
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [DEBUG] Client authentication type requested: noclientcert
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:16:40 [INFO] Listening on https://0.0.0.0:7054
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:31:40 [DEBUG] Cleaning up expired nonces for CA 'ca-lenderorg'
+[36mca_peerLenderOrg             |[0m 2020/03/15 17:46:40 [DEBUG] Cleaning up expired nonces for CA 'ca-lenderorg'
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:51:13.065 UTC [nodeCmd] handleSignals -> INFO 026[0m Received signal: 15 (terminated)
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:51:13.066 UTC [gossip.gossip] Stop -> INFO 027[0m Stopping gossip
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:51:13.066 UTC [gossip.discovery] Stop -> INFO 028[0m Stopping
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:51:13.066 UTC [gossip.discovery] Stop -> INFO 029[0m Stopped
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:51:13.066 UTC [gossip.comm] Stop -> INFO 02a[0m Stopping
+[33mpeer0.lenderorg.trade.com    |[0m [34m2020-03-15 17:51:13.066 UTC [gossip.comm] Stop -> INFO 02b[0m Stopped
+[33mpeer0.lenderorg.trade.com exited with code 0
+[0m[36mca_peerLenderOrg exited with code 137
+[0m
